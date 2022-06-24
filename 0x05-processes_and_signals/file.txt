@@ -1,8 +1,0 @@
-USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
-root         1  0.0  0.0   1744  1080 ?        Sl   10:25   0:00 /init
-root         7  0.0  0.0   1764    68 ?        Ss   10:25   0:00 /init
-root         8  0.0  0.0   1764    84 ?        S    10:25   0:00 /init
-sebasg       9  0.0  0.0  10524  5660 pts/0    Ss   10:25   0:00 -bash
-sebasg     634  0.0  0.0   7020  3152 ?        Ss   11:09   0:00 /usr/bin/xclip -quiet -i -selection primary
-sebasg     637  0.0  0.0   8624  3040 pts/0    S+   11:09   0:00 bash ./3-show_your_bash_pid_made_easy
-sebasg     638  0.0  0.0  10836  3300 pts/0    R+   11:09   0:00 ps -aux
