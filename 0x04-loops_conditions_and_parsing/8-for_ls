@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# displays the content of the current directory
+LIST=$( ls )
+
+for fname in $LIST
+do
+	echo "${fname//*-}"
+done
