@@ -1,3 +1,4 @@
+# Using Puppet, create a file in /tmp.
 file { 'school':
   path    => '/tmp/school',
   group   => 'www-data',
