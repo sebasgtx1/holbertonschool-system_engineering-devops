@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Create a Back-Up for a sql database suit
+mysqldump -u root -p"$1" --all-databases --lock-tables=false > backup.sql
+tar -czf "$(date +%d-%m-%Y)".tar.gz backup.sql
